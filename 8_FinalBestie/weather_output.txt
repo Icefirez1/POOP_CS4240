@@ -1,0 +1,12 @@
+Here's your weather
+-- Today's Forecast for Fayetteville is Sunny --
+Temperature: 72 F 
+Detailed Forcast: Sunny. High near 72, with temperatures falling to around 65 in the afternoon. Southwest wind 7 to 10 mph, with gusts as high as 20 mph.
+
+-- Tomorrow's Forecast for Fayetteville is Sunny --
+Temperature: 73 F
+Detailed Forecast: Sunny. High near 73, with temperatures falling to around 67 in the afternoon. Northwest wind around 5 mph.
+
+-- Pollutants --
+Air quality index is 45
+The pollutant that is mostly in the air is p2

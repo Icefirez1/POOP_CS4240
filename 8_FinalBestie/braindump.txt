@@ -1,0 +1,35 @@
+Final Project idea 
+
+fun ideas 
+- escape maze 
+- tic tac toe 
+
+useful ideas 
+- enviromental science (something)
+---- an application where a user tells where they are from 
+---- an returns the enviromental data on that certain place 
+
+- passowrd generator cuz we are lazy 
+
+FINAL PROJECT IDEA 
+- Enviromental application that takes in the user zip code and returns certain enviromental data about that location 
+------- air pollution (https://rapidapi.com/weatherbit/api/air-quality/details)
+------- water quality 
+------- weather in general 
+------- optional (pollution thing nearby)
+
+Formatiting 
+
+
+Summary of weather 
+
+----Today's Weather---
+
+Temp 
+Short forecast 
+
+----Pollution---  
+- Air quality 
+- main pollutant
+
+In depth summ

@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+    <title>Strange</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="lab1.css"/>
+</head>
+<body>
+    <h2>Strange</h2>
+
+<p><strong>BIN Function</strong>.</p>
+
+<pre class="pybox">
+&gt;&gt;&gt; bin(2)
+&gt;&gt;&gt; 0b10
+&gt;&gt;&gt; bin(333)
+&gt;&gt;&gt; 0b101001101
+&gt;&gt;&gt; bin(-42)
+&gt;&gt;&gt; -0b101010
+
+the bin() function takes an integer an returns the binary equivalent. It puts a negative sign if the integer is negative
+</pre>
+
+<p><strong>HEX Function</strong>.</p>
+
+<pre class="pybox">
+&gt;&gt;&gt; hex(2)
+&gt;&gt;&gt; 0x2
+&gt;&gt;&gt; hex(333)
+&gt;&gt;&gt; 0x14d
+&gt;&gt;&gt; hex(-42)
+&gt;&gt;&gt; -0x2a
+
+the bin() function takes an integer an returns the hexadecimal equivalent. It puts a negative sign if the integer is negative
+</pre>
+
+<p><strong>OCT Function</strong>.</p>
+
+<pre class="pybox">
+&gt;&gt;&gt; oct(2)
+&gt;&gt;&gt; 0o2
+&gt;&gt;&gt; oct(333)
+&gt;&gt;&gt; 0o515
+&gt;&gt;&gt; oct(-42)
+&gt;&gt;&gt; -0o52
+
+the bin() function takes an integer an returns the octal equivalent. It puts a negative sign if the integer is negative
+</pre>
+
+<pre class="pybox">
+    &gt;&gt;&gt; 15 ^ 5
+    &gt;&gt;&gt; 10
+    &gt;&gt;&gt; bin(15)
+    &gt;&gt;&gt; 0o1111
+    &gt;&gt;&gt; bin(5)
+    &gt;&gt;&gt; 0o0101
+    &gt;&gt;&gt; bin(10)
+    &gt;&gt;&gt; 0o1010
+    the ^ operator takes the two integers and compares them bit by bit and only turns on the bit on another binary object if 
+    only one out of the two bits are turned on. Then returnst the binary number from that variable 
+</pre>
+
+<pre class="pybox">
+    &gt;&gt;&gt; 15 | 5
+    &gt;&gt;&gt; 15
+    &gt;&gt;&gt; bin(15)
+    &gt;&gt;&gt; 0o1111
+    &gt;&gt;&gt; bin(5)
+    &gt;&gt;&gt; 0o0101
+    &gt;&gt;&gt; bin(15)
+    &gt;&gt;&gt; 0o1111
+    the ^ operator takes the two integers and compares them bit by bit and turns on the bit on another binary object if at
+    least one out of the two bits compared are turned on. Then returns the binary number from that variable.
+</pre>
+
+<pre class="pybox">
+    &gt;&gt;&gt; 15 * 5
+    &gt;&gt;&gt; 5
+    &gt;&gt;&gt; bin(15)
+    &gt;&gt;&gt; 0o1111
+    &gt;&gt;&gt; bin(5)
+    &gt;&gt;&gt; 0o0101
+    &gt;&gt;&gt; bin(5)
+    &gt;&gt;&gt; 0o0101
+    the ^ operator takes the two integers and compares them bit by bit and only turns on the bit on another binary object if 
+    both of the two bits are turned on. Then returnst the binary number from that variable 
+</pre>

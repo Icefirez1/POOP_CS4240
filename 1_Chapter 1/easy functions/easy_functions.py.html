@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://faculty.ncssm.edu/~morrison/currentClasses/4240/specs/chapter1/easy_functions/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+<link rel="stylesheet" href="./easy_functions.py_files/pageContent0220.css">
+<link rel="stylesheet" href="./easy_functions.py_files/boxes.css">
+<link rel="stylesheet" href="./easy_functions.py_files/gridLayout0820.css">
+<link rel="stylesheet" href="./easy_functions.py_files/menus.css">
+<link href="./easy_functions.py_files/css" rel="stylesheet">
+<link rel="shortcut icon" href="https://faculty.ncssm.edu/~morrison/CSS/rhino.ico">
+<link rel="stylesheet" href="./easy_functions.py_files/sunburst.css">
+<script src="./easy_functions.py_files/highlight.min.js.download"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<style>
+table
+{
+    width:80%;
+}
+</style>
+<!--
+Uncomment for mathJax
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+-->
+<!--
+Uncomment for JQuery
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+-->
+
+        <title>easy_functions.py</title>
+
+</head>
+<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
+<header>
+<h2>easy_functions.py</h2>
+<div id="menu">
+<ul>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/currentClasses"><span>Classes</span></a>
+        <ul>
+            <li><a href="https://faculty.ncssm.edu/~morrison/big6.php">The Big 6</a></li>
+            <!--<li><a href = "/~morrison/JTerm2021">JTerm 20201</a></li>-->
+            <li><a href="https://faculty.ncssm.edu/~morrison/currentClasses/4020">CSC 4020</a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/currentClasses/4240">CSC 4240</a></li>
+            <li><a href="https://www.youtube.com/channel/UCMxP_bP8whMGN63IpvGFPTQ/">My YouTube Channel</a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/youTubeChannel"> YouTube Files</a></li>
+        </ul>
+   </li>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/resources"><span>resources</span></a>
+        <ul>
+            <li><a href="https://faculty.ncssm.edu/~morrison/educators"><span>Resources for Educators</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/resources/fileSystem"><span>File System Organization</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/resources/python"><span>Python</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/resources/java"><span>Java</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/resources/UNIXResources"><span>UNIX</span></a></li>
+            <li><a href="https://github.com/ncmathsadist"><span>Morrison's GitHub Repository</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/resources/googleCalendar/"><span>Using Google Calendar</span></a></li>
+
+       </ul>
+   </li>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/math"><span>Math</span></a>
+      <ul>
+            <li><a href="https://math.stackexchange.com/users/4154/ncmathsadist"><span>Stack Exchange Profile</span></a></li>
+      </ul>
+   </li>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/school"><span>School</span></a>
+        <ul>
+            <li><a href="https://faculty.ncssm.edu/~morrison/school/college"> <span>College Matters</span></a></li>
+    </ul>
+   </li>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/general"><span>Contact/Schedule</span></a>
+        <ul>
+            <li><a href="https://faculty.ncssm.edu/~morrison/general/schedule.php"><span>Schedule</span></a></li>
+            <li><a href="https://faculty.ncssm.edu/~morrison/general/contact.php"><span>Contact</span></a></li>
+            <li><a href="https://calendar.google.com/calendar/embed?src=morrison%40ncssm.edu&amp;ctz=America%2FNew_York"><span>Google Calender</span></a></li>
+            <li class="last"><a href="https://faculty.ncssm.edu/~morrison/general/parents.php"><span>Parents FAQ</span></a></li>
+        </ul>
+   </li>
+   <li class="active has-sub"><a href="https://faculty.ncssm.edu/~morrison/personal"><span>Personal</span></a>
+      <ul>
+         <li class="has-sub"><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/"><span>The Cracker Barrel</span></a>
+            <ul>
+               <li><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/facebook.php"><span>Using Facebook</span></a></li>
+               <li><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/mathStudyGuide.php"><span>Math Study Guide</span></a></li>
+               <li><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/plants.php"><span>Plants Page</span></a></li>
+               <li><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/computingHistory.php"><span>Personal Computing History</span></a></li>
+               <li><a href="https://faculty.ncssm.edu/~morrison/personal/crackerBarrel/eats.php"><span>The Eats Page</span></a></li>
+               <li class="last"><a href="https://www.yelp.com/user_details?userid=-Fm05tmJz_10qOkL6JAsmw"><span>Yelp Profile</span></a></li>
+            </ul>
+         </li>
+         <li><a href="https://faculty.ncssm.edu/~morrison/personal/resume.php"><span>Resume</span></a></li>
+      </ul>
+   </li>
+</ul>
+</div>
+</header>
+
+<nav>
+
+<h2>Navigation</h2>
+
+<hr>
+<h3>Directories</h3>
+
+<ul><li><a href="https://faculty.ncssm.edu/~morrison/currentClasses/4240/specs/chapter1/">Parent Directory</a></li></ul><hr><h3>Files</h3><ul><li><a href="https://faculty.ncssm.edu/~morrison/currentClasses/4240/specs/chapter1/easy_functions/easy_functions.py">easy_functions.py</a></li>
+</ul><hr><h3>Other Places</h3><ul><li><a href="https://faculty.ncssm.edu/~morrison/currentClasses/4240/specs/chapter1/easy_functions/index.php">Back to Index Page</a></li><li><a href="https://faculty.ncssm.edu/~morrison/currentClasses">Current Courses Page</a></li><li><a href="https://faculty.ncssm.edu/~morrison">Morrison's Main Page</a></li></ul>
+
+</nav>
+
+<main>
+<p>This is your first function writing exercise. It includes a facility
+for easily testing your functions.  
+
+</p><pre><code class="hljs python">
+<span class="hljs-comment">#   Author: Morrison</span>
+<span class="hljs-comment">#   Date:  2021-08-30</span>
+<span class="hljs-comment">#   Program easyFunctions.py</span>
+
+<span class="hljs-comment">#   FREE CODE FOR WRITING TESTS</span>
+<span class="hljs-comment">#   Usage is demonstrated on examples below</span>
+<span class="hljs-comment">################# DO NOT CHANGE THIS CODE ###################</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">close_enough</span>(<span class="hljs-params">x,y</span>):</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">abs</span>(x - y) &lt; <span class="hljs-number">1e6</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run_test</span>(<span class="hljs-params">function, expected, args</span>):</span>
+    print(<span class="hljs-string">f"args = <span class="hljs-subst">{args}</span>"</span>)
+    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">len</span>(args) == <span class="hljs-number">1</span>):
+        print(<span class="hljs-string">"made it into the if statement"</span>)
+        args = args[<span class="hljs-number">0</span>]
+        print(<span class="hljs-string">f"args = <span class="hljs-subst">{args}</span>"</span>)
+        <span class="hljs-keyword">if</span> function(args) == expected:
+            print(<span class="hljs-string">f"PASS for case <span class="hljs-subst">{args}</span>"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">f"FAIL because f(<span class="hljs-subst">{args}</span>) != <span class="hljs-subst">{expected}</span>"</span>)
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">if</span> function(*args) == expected:
+            print(<span class="hljs-string">f"PASS for case <span class="hljs-subst">{args}</span>"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">f"FAIL because f(<span class="hljs-subst">{args}</span>) != <span class="hljs-subst">{expected}</span>"</span>)
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run_test_float</span>(<span class="hljs-params">function, expected, args</span>):</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">type</span>(args) == <span class="hljs-built_in">list</span> <span class="hljs-keyword">and</span> <span class="hljs-built_in">len</span>(args) == <span class="hljs-number">1</span>):
+        args = args[<span class="hljs-number">0</span>]
+        <span class="hljs-keyword">if</span> close_enough(function(args), expected):
+            print(<span class="hljs-string">f"PASS for case <span class="hljs-subst">{args}</span>"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">f"FAIL because f(<span class="hljs-subst">{args}</span>) != <span class="hljs-subst">{expected}</span>"</span>)
+        <span class="hljs-keyword">return</span>
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">if</span> close_enough(function(*args), expected):
+            print(<span class="hljs-string">f"PASS for case <span class="hljs-subst">{args}</span>"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">f"FAIL because f(<span class="hljs-subst">{args}</span>) != <span class="hljs-subst">{expected}</span>"</span>)
+<span class="hljs-comment">############### END OF CODE NOT TO CHANGE ###########################</span>
+<span class="hljs-comment">## sample problem with tests that returns a floating-point value.</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f2c</span>(<span class="hljs-params">tempF</span>):</span>
+    <span class="hljs-string">"""precondition: tempF is a float or an int
+    postc:  returns the equivalent temperature on the celsius scale."""</span>
+    print(tempF)
+    <span class="hljs-keyword">return</span> (tempF - <span class="hljs-number">32</span>)*<span class="hljs-number">5</span>/<span class="hljs-number">9</span>
+test = [-<span class="hljs-number">40</span>]   <span class="hljs-comment">#put arguments in a list</span>
+expected = -<span class="hljs-number">40</span> <span class="hljs-comment">#set this to expected output</span>
+run_test_float(f2c, expected, test)   <span class="hljs-comment">#run test</span>
+test = [<span class="hljs-number">32</span>]
+expected = <span class="hljs-number">0</span>
+run_test_float(f2c, expected, test)
+test = [<span class="hljs-number">212</span>]
+expected = <span class="hljs-number">100</span>
+run_test_float(f2c, expected, test)
+<span class="hljs-comment">## sample problem with tests that returns a non-float object</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_first_name</span>(<span class="hljs-params">name</span>):</span>
+    <span class="hljs-string">"""prec: name is given in the form last, first, and possibly a middle name in 
+    a single string
+    postc:  returns first name"""</span>
+    chunks = name.split()
+    <span class="hljs-keyword">return</span> chunks[<span class="hljs-number">1</span>]
+test = [<span class="hljs-string">"Roberts, Todd"</span>]
+expected = <span class="hljs-string">"Todd"</span>
+run_test(get_first_name, expected, test)
+test = [<span class="hljs-string">"Morrison, John M."</span>]
+expected = <span class="hljs-string">"John"</span>
+run_test(get_first_name, expected, test)
+<span class="hljs-comment">## Problem 0</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">c2f</span>(<span class="hljs-params">tempC</span>):</span>
+    <span class="hljs-string">"""precondition: tempC is a float or an int
+    postc: returns temperature in degrees farenheit
+    """</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+print(<span class="hljs-string">"*************** Problem 0 Tests ***************"</span>)
+<span class="hljs-comment"># Problem 1</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">positive_part</span>(<span class="hljs-params">x</span>):</span>
+    <span class="hljs-string">"""precondition: x is a float or an int
+    postc:  returns x if x is nonnegative and 0 otherwise.
+    """</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+print(<span class="hljs-string">"*************** Problem 1 Tests ***************"</span>)
+<span class="hljs-comment">## Problem 2</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">truncate_string</span>(<span class="hljs-params">s, n</span>):</span>
+    <span class="hljs-string">"""prec: s is a string, n is a nonnegative integer
+    post:  returns s if s has length at most end; otherwise, 
+    it truncates s to its first n characters."""</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-string">""</span>
+print(<span class="hljs-string">"*************** Problem 2 Tests ***************"</span>)
+test = [<span class="hljs-string">"catamaran"</span>, <span class="hljs-number">5</span>]
+expected = <span class="hljs-string">"catam"</span>
+run_test(truncate_string, expected, test)
+
+<span class="hljs-comment">## Problem 3</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">xor</span>(<span class="hljs-params">b1, b2</span>):</span>
+    <span class="hljs-string">"""prec b1 and b2 are booleans
+    post: returns True if EXACTLY ONE of b1 or b2 is true.
+    """</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span>
+test = [<span class="hljs-literal">True</span>, <span class="hljs-literal">True</span>]
+expected = <span class="hljs-literal">False</span>
+run_test(xor, expected, test)
+print(<span class="hljs-string">"*************** Problem 3 Tests ***************"</span>)
+<span class="hljs-comment">##Problem 4</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">chop_at</span>(<span class="hljs-params">s, ch</span>):</span>
+    <span class="hljs-string">"""s is a string, ch is a one-character string
+    if ch is not present in s, just return s
+    if it is find the last instance of ch in s and truncate 
+    the string there (including ch)"""</span>
+    <span class="hljs-keyword">return</span> s
+print(<span class="hljs-string">"*************** Problem 4 Tests ***************"</span>)
+test = [<span class="hljs-string">"Todd Roberts"</span>, <span class="hljs-string">"e"</span>]
+expected = <span class="hljs-string">"ToddRob"</span>
+run_test(chop_at, expected, test)
+<span class="hljs-comment">## Problem 5</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">sort_string</span>(<span class="hljs-params">s</span>):</span>
+    <span class="hljs-string">"""prec: s is a string of alphabetical characters
+    post: returns s lower-cased and with its characters in alphabetical order.
+    """</span>
+    <span class="hljs-keyword">return</span> s
+test = [<span class="hljs-string">"CowABUnga"</span>]
+expected = <span class="hljs-string">"aabcgnouw"</span>
+run_test(sort_string, expected, test)
+<span class="hljs-comment">## Problem 6</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">are_anagrams</span>(<span class="hljs-params">s1, s2</span>):</span>
+    <span class="hljs-string">"""prec: s1 and s2 are strings
+    postc: return True if s1 is an anagram of s2, case INSENSITIVE."""</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">False</span>
+test = [<span class="hljs-string">"golf"</span>, <span class="hljs-string">"flog"</span>]
+expected = <span class="hljs-literal">True</span>
+run_test(are_anagrams, expected, test)
+test = [<span class="hljs-string">"butter"</span>, <span class="hljs-string">"rebut"</span>]
+expected = <span class="hljs-literal">False</span>
+run_test(are_anagrams, expected, test)
+
+</code></pre>
+
+<p>Here are some tips to keep you sane.  First, use <code>run_test</code>
+for functions that do not return a floating-point value.  Use <code>run_test_float
+</code> for functons that return a floating-point value.</p>
+
+<p><strong>How to Use the Test functions</strong>  DO NOT MODIFY the 
+three functions at the top.  These make testing your functions easy. 
+
+</p><ol>
+    <li>Create a variable named <code>test</code> and assign to it
+    a <em>list</em> of arguments being passed in.  Use a list even
+    if there is only one argument.</li>
+    <li>Find the corrrect return value for those arguments; assign that
+    value to the variable <code>expected</code>.</li>
+    <li>If you DO NOT return a float, do this
+    <pre>run_test(your_function, expected, test)</pre></li>
+    <li>If you DO return a float, do this
+    <pre>run_test_float(your_function, expected, test)</pre></li>
+</ol>
+
+<p><strong>Create Test Cases!</strong>  Try and do things that might break
+your code.  Be fearless. But be fair; do not violate the given preconditions.</p>
+
+</main>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
